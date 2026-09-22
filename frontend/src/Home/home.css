@@ -375,3 +375,52 @@ main {
     #030817 59%
   );
 }
+.conteudoExploracao > small {
+  color: #1599ed;
+  font-size: 6px;
+  letter-spacing: .4px;
+}
+
+.conteudoExploracao h2 {
+  margin: 5px 0 7px;
+  font: 700 12px Orbitron, sans-serif;
+}
+
+.conteudoExploracao p {
+  color: #adb7c7;
+  font: 6px/1.45 Georgia, serif;
+}
+
+.conteudoExploracao > a {
+  float: right;
+  color: #4779e5;
+  font-size: 6px;
+  text-decoration: none;
+}
+
+.conteudoExploracao h3 {
+  clear: both;
+  margin: 14px 0 6px;
+  font: 700 9px Orbitron, sans-serif;
+}
+
+.sistemas {
+  display: block;
+  margin-top: 4px;
+  color: #5875cf;
+  font-size: 6px;
+  text-align: right;
+}
+
+footer {
+  width: 100%;
+  height: 48px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #10285a, #17366e, #10285a);
+  color: #d8dce5;
+  font-size: 7px;
+  border-top: 1px solid #214b88;
+}
