@@ -50,3 +50,48 @@ body {
   font: 500 18px Georgia, serif;
   letter-spacing: 1px;
 }
+logo span {
+  display: block;
+  margin-top: 2px;
+  color: #667695;
+  font: 7px Georgia, serif;
+  letter-spacing: 1px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex: 1;
+  white-space: nowrap;
+}
+
+nav a {
+  color: #cbd4e5;
+  font-size: 8px;
+  text-decoration: none;
+  transition: .2s;
+}
+
+nav a:hover {
+  color: #54a9ff;
+}
+
+nav .ativo {
+  padding: 7px 9px;
+  color: #fff;
+  background: #15345f;
+  border-bottom: 2px solid #2298ff;
+  border-radius: 6px;
+  box-shadow: 0 0 14px rgba(34, 152, 255, .2);
+}
+
+.perfil {
+  width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  font-size: 8px;
+  white-space: nowrap;
+}
