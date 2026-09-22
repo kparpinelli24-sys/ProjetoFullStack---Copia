@@ -146,3 +146,46 @@ main {
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
+.estatisticas div {
+  height: 50px;
+  padding: 6px;
+  background: linear-gradient(145deg, #121f3d, #0d1730);
+  border: 1px solid #1a3158;
+  border-radius: 8px;
+  text-align: center;
+  transition: .2s;
+}
+
+.estatisticas div:hover {
+  transform: translateY(-2px);
+  border-color: #2869b5;
+  box-shadow: 0 5px 20px rgba(26, 91, 170, .15);
+}
+
+.estatisticas small {
+  color: #3970e6;
+  font-size: 5px;
+}
+
+.estatisticas div:nth-child(2) small {
+  color: #c52bd1;
+}
+
+.estatisticas div:nth-child(3) small {
+  color: #00c5b0;
+}
+
+.estatisticas div:nth-child(4) small {
+  color: #17c94b;
+}
+
+.estatisticas strong {
+  display: block;
+  margin: 3px 0 2px;
+  font: 700 12px Orbitron, sans-serif;
+}
+
+.estatisticas span {
+  color: #71809e;
+  font-size: 4px;
+}
