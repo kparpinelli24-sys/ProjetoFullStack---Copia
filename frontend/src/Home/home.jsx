@@ -55,7 +55,7 @@ function Home() {
         </div>
 
       </header>
-      
+
       <main>
 
         <section className="boasVindas">
@@ -93,3 +93,50 @@ function Home() {
           </div>
 
         </section>
+        
+        <section className="principal">
+
+          <div className="planeta">
+
+            <div className="etiquetas">
+              <span>✦ Exoplaneta</span>
+              <span>Destaque</span>
+            </div>
+
+            <img
+              src="https://www.tupi.fm/wp-content/uploads/2026/08/Planet_orbiting_Sun-like_star_202608090015-1024x572.jpeg&quot;
+              alt="Kepler-452b"
+            />
+
+            <div className="infoPlaneta">
+
+              <h3>Kepler-452b</h3>
+
+              <p>
+                Conhecido como o “primo da Terra”, Kepler-452b orbita uma estrela
+                do tipo G2 a 1.400 anos-luz. Com 60% maior que a Terra, é um dos
+                candidatos mais estudados à presença de vida extraterrestre.
+              </p>
+
+              <div className="dados">
+
+                <div>
+                  <small>DISTÂNCIA</small>
+                  <b>1.400 anos-luz</b>
+                </div>
+
+                <div>
+                  <small>DIÂMETRO</small>
+                  <b>17.280 km</b>
+                </div>
+
+                <div>
+                  <small>PERÍODO ORBITAL</small>
+                  <b>384,8 dias</b>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
