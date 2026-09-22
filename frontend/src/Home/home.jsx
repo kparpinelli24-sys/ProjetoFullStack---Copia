@@ -1,4 +1,4 @@
-import '/home.css'
+import './home.css'
 
 const catalogo = [
   {
@@ -93,7 +93,7 @@ function Home() {
           </div>
 
         </section>
-        
+
         <section className="principal">
 
           <div className="planeta">
@@ -104,7 +104,7 @@ function Home() {
             </div>
 
             <img
-              src="https://www.tupi.fm/wp-content/uploads/2026/08/Planet_orbiting_Sun-like_star_202608090015-1024x572.jpeg&quot;
+              src="https://www.tupi.fm/wp-content/uploads/2026/08/Planet_orbiting_Sun-like_star_202608090015-1024x572.jpeg"
               alt="Kepler-452b"
             />
 
@@ -140,3 +140,70 @@ function Home() {
             </div>
 
           </div>
+          <div className="catalogo">
+
+            <div className="tituloCatalogo">
+              <h3>Catálogo Recente</h3>
+              <a>Ver</a>
+            </div>
+
+            {catalogo.map((item) => (
+              <div className="itemCatalogo" key={item.nome}>
+                <img src={item.imagem} alt={item.nome} />
+                <span>{item.nome}</span>
+                <a>Ver</a>
+              </div>
+            ))}
+
+          </div>
+
+        </section>
+
+        <section className="exploracao">
+
+          <div className="imagemEspaco"></div>
+
+          <div className="conteudoExploracao">
+
+            <small>Modo Exploração</small>
+
+            <h2>Navegar pelo Universo</h2>
+
+            <p>
+              Entre estrelas e constelações, o universo revela sua imensidão.
+              Explore o céu noturno, descubra diferentes formações celestes e
+              aproxime-se dos mistérios que tornam o cosmos tão fascinante.
+            </p>
+
+            <a>Ver</a>
+
+            <h3>Sistemas Estelares</h3>
+
+            <p>
+              Um sistema estelar é formado por duas ou mais estrelas que
+              permanecem ligadas pela gravidade, podendo também abrigar planetas,
+              luas, asteroides e outros corpos celestes. Esses sistemas revelam
+              a complexidade e a diversidade do universo.
+            </p>
+
+            <a>Ver</a>
+
+            <span className="sistemas">
+              4 sistemas disponíveis
+            </span>
+
+          </div>
+
+        </section>
+
+      </main>
+
+      <footer>
+        © 2026 Cosmos. Todos os direitos reservados.
+      </footer>
+
+    </div>
+  )
+}
+
+export default Home
