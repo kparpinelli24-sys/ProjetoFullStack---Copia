@@ -22,3 +22,36 @@ const catalogo = [
     imagem: 'https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=100&q=80&#39'
   }
 ]
+function Home() {
+  return (
+    <div className="pagina">
+
+      <header className="cabecalho">
+
+        <div className="logo">
+          <div className="logoIcon">
+            ◎
+          </div>
+
+          <div>
+            <h1>COSMOS</h1>
+            <span>OBSERVATORY</span>
+          </div>
+        </div>
+
+        <nav>
+          <a className="ativo">Início</a>
+          <a>Explorar</a>
+          <a>Planetas</a>
+          <a>Sistemas</a>
+          <a>Meu Perfil</a>
+        </nav>
+
+        <div className="perfil">
+          <b>EC</b>
+          <span>Elena Costa</span>
+          <i>|</i>
+          <a>Sair</a>
+        </div>
+
+      </header>
