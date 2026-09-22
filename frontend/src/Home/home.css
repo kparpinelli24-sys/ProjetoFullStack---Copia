@@ -95,3 +95,54 @@ nav .ativo {
   font-size: 8px;
   white-space: nowrap;
 }
+.perfil b {
+  width: 27px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #168cff, #3856d8);
+  border-radius: 50%;
+  box-shadow: 0 0 14px rgba(22, 140, 255, .35);
+  font-size: 8px;
+}
+
+.perfil i {
+  color: #68738a;
+  font-style: normal;
+}
+
+.perfil a {
+  color: #d9e2f1;
+  text-decoration: none;
+}
+
+main {
+  padding: 0 16px 25px;
+}
+
+.boasVindas {
+  padding: 19px 10px 25px;
+}
+
+.boasVindas small {
+  color: #607398;
+  font-size: 6px;
+  letter-spacing: .5px;
+}
+
+.boasVindas h2 {
+  margin-top: 7px;
+  font: normal 22px Georgia, serif;
+}
+
+.boasVindas h2 span {
+  color: #6e8acb;
+  text-shadow: 0 0 18px rgba(87, 125, 210, .3);
+}
+
+.estatisticas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
