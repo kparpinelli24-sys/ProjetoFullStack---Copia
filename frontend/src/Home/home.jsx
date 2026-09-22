@@ -55,3 +55,41 @@ function Home() {
         </div>
 
       </header>
+      
+      <main>
+
+        <section className="boasVindas">
+          <small>MISSÃO ATIVA · 8 DE SETEMBRO DE 2026</small>
+
+          <h2>
+            Bem - Vinda, <span>Elena</span>
+          </h2>
+        </section>
+
+        <section className="estatisticas">
+
+          <div>
+            <small>Objetivos catalogados</small>
+            <strong>8</strong>
+            <span>NO REPOSITÓRIO</span>
+          </div>
+
+          <div>
+            <small>Objetivos catalogados</small>
+            <strong>4</strong>
+            <span>MAPEADOS</span>
+          </div>
+
+          <div>
+            <small>Objetivos catalogados</small>
+            <strong>2,4 mil</strong>
+            <span>DO SISTEMA SOLAR</span>
+          </div>
+
+          <div>
+            <small>Objetivos catalogados</small>
+            <strong>3</strong>
+            <span>CANDIDATOS</span>
+          </div>
+
+        </section>
